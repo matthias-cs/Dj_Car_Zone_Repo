@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+
+{% include 'Base/Include/html_header.html' %}
+
+<body>
+<div class="page_loader"></div>
+{% include 'Base/Include/Top_Header.html' %}
+{% include 'Base/Include/Main_Header.html' %}
+
+{% block content %}
+
+{% endblock %}
+
+{% include 'Base/Include/Footer.html' %}
+{% include 'Base/Include/Import_JS_Script.html' %}
+
+</body>
+</html>
